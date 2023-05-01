@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Comic Sans MC, Geneva, Verdana, sans-serif;
+}
+body{
+    position: relative;
+    background: #000;
+    content: '';
+    color: #fff;
+}
+body::before{
+    width: 100%;
+    height: 1.7vh;
+    top: 0;
+}
+/*------------------------------------------------------------------------------------*/
+.navbar{
+    background: #242424b8;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 2vh;
+    padding: 5px;
+    box-shadow: 0 3px 8px#ee0000;
+}
+.navbar nav {
+    right: 0;
+    font-size: 1.1em;
+    height: 100%;
+    width: auto;
+}
+.navbar nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 2px;
+    height: 100%;
+    border-radius: 25vh;
+    padding: 5px;
+}
+.navbar nav a .active,.navbar nav a:hover{
+    background:linear-gradient(to right,#ee0000,#0049b8);
+}
+.navbar nav img{
+   height: 20px;
+   margin: 2px;
+   margin-left: 4px;
+}
+/*-------------------------------------------------------------------------------*/
+.introducting{
+    width: 100%;
+    height: 49vh;
+    padding: 30px;
+    box-shadow: 0 3px 8px #0049b8;
+    background: url("../images/bgAO.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.introducting .content{
+    
+    width: 100%;
+}
+.introducting .content .v-ind{
+    width: auto;
+    right: 100px;
+}
+.introducting .content .v-ind video{
+    width: 50px;
+}
